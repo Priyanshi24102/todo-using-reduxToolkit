@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  background-image: url('https://img.freepik.com/free-photo/organized-desk-with-copy-space_23-2148219270.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1720483200&semt=ais_user');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 92vw;
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+  opacity: 1;
+}
+.todoInput{
+  margin: 2rem;
+}
+.todoInput form input{
+    padding: 4px;
+    color: white !important;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 20rem;
+    height: 1.27rem;
+    margin: 1rem;
+    
+}
+.todoInput form button{
+   padding: 4.5px;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: #000;
+   color: white;
+   border: 2px solid white;
+   border-radius: 4px;
+}
+.todoInput form button:hover{
+  cursor: pointer;
+}
+.todoContainer{
+  background-color: #393939;
+  color: #fff;
+  opacity: .5;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.todolist .item{
+ background-color: white;
+ padding:5px;
+ display: flex;
+ /* flex-direction: column; */
+ color: black;
+ /* align-items: center; */
+ /* justify-content: space-between; */
+ /* align-items: end; */
+ border-radius: 3px;
+ width: 60%;
+ margin: 10px auto;
+}
+.todolist li{
+  list-style: none;
+  display: inline;
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* background-color: black;
+  color: white; */
+}
+.todolist .btn{
+  display: inline;
+  /* margin: 20px; */
+  position: relative;
+  left: 215px;
+}
+.todolist .btn button{
+  margin: 0px 4px;
+  padding: 5px;
+}
+.todolist button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  
+}
+.editinput{
+  padding: 4px;
+  color: white !important;
+  background-color: black;
+  /* border: 3px solid white; */
+  border-radius: 3px;
+  /* width: 10rem; */
+  height: 1rem;
+  border-radius: 2px;
+  /* margin: 0rem; */
+}
